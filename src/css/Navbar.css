@@ -1,0 +1,104 @@
+
+.portfolio-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: rgba(9, 9, 13, 0.94);
+  border-bottom: 1px solid #25252d;
+  backdrop-filter: blur(12px);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  min-height: 76px;
+  margin: auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.navbar-logo {
+  color: #f4f4f5;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.navbar-logo span {
+  color: #b8ff60;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-links a {
+  color: #c5c5cc;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: #b8ff60;
+}
+
+.navbar-links .navbar-hire-button {
+  padding: 11px 20px;
+  border-radius: 7px;
+  background: #b8ff60;
+  color: #09090d;
+  font-weight: 700;
+}
+
+.navbar-links .navbar-hire-button:hover {
+  background: #c9ff86;
+  color: #09090d;
+}
+
+.navbar-toggle {
+  display: none;
+  border: 0;
+  background: transparent;
+  color: #b8ff60;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    min-height: 68px;
+    padding: 0 18px;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 22px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 22px;
+    background: #101016;
+    border-bottom: 1px solid #25252d;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-links a {
+    text-align: center;
+  }
+}
