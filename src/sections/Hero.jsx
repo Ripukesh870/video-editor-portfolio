@@ -198,6 +198,9 @@
 
 
 
+
+
+
 import { FaArrowRight, FaPlay, FaDownload } from 'react-icons/fa';
 import '../css/Hero.css';
 
@@ -212,6 +215,7 @@ function Hero() {
 
           <h1>
             Hi, I'm Ripukesh Kumar.
+            
             <span> I Turn Your Ideas Into Powerful Videos.</span>
           </h1>
 
@@ -311,3 +315,8 @@ function Hero() {
 }
 
 export default Hero;
+
+
+
+
+

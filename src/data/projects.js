@@ -48,7 +48,7 @@ const projects = [
     category: 'Video Editing',
     description: 'Story-driven editing focused on pacing and visual presentation.',
     image: '',
-    videoUrl: 'https://youtu.be/eYOwNe_b2Hg?si=wW8-uCyrvINhdxnK',
+    videoUrl: 'https://youtu.be/tZtYMqvXNU8?si=4a1L-SxIEppE9_jt',
   },
 
 
