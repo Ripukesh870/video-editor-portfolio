@@ -271,26 +271,41 @@ function Hero() {
               </span>
             </div>
 
-            <div className="editor-screen">
+            <div className="hero-video position-relative overflow-hidden rounded-4 shadow-lg">
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                className="w-100 h-100 object-fit-cover"
+              >
+                <source src="/video1.mp4" type="video/mp4" />
+                Your browser does not support video.
+              </video>
+              </div>
+
+
+              {/* <div className="editor-screen">
               <div className="editor-screen-icon">
                 <FaPlay />
               </div>
               <span>YOUR NEXT GREAT VIDEO</span>
+            </div> */}
+
+              <div className="editor-timeline">
+                <div className="timeline-track track-one"></div>
+                <div className="timeline-track track-two"></div>
+                <div className="timeline-track track-three"></div>
+              </div>
             </div>
 
-            <div className="editor-timeline">
-              <div className="timeline-track track-one"></div>
-              <div className="timeline-track track-two"></div>
-              <div className="timeline-track track-three"></div>
+            <div className="hero-floating-label">
+              <span className="hero-live-dot"></span>
+              Creative Editing
             </div>
-          </div>
-
-          <div className="hero-floating-label">
-            <span className="hero-live-dot"></span>
-            Creative Editing
           </div>
         </div>
-      </div>
     </section>
   );
 }

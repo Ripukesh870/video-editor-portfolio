@@ -8,7 +8,7 @@ const projects = [
     category: '2D Animation',
     description: 'Hindi animated moral stories with engaging characters and storytelling.',
     image: '',
-    videoUrl: 'https://youtu.be/BSwsyw1otUw?si=_O3_J5CcdHTvLxmZ',
+    videoUrl: 'https://youtu.be/D42h_BqXN6U?si=xIKXYdNh347HJ7F4',
   },
   {
     id: 2,
@@ -40,7 +40,7 @@ const projects = [
     category: 'Documentary',
     description: 'Research-based storytelling with supporting visuals and titles.',
     image: '',
-    videoUrl: '',
+    videoUrl: 'https://youtu.be/uz71kSDSiJc?si=-KkYBKVHkA9D5UlY',
   },
   {
     id: 6,
